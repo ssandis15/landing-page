@@ -110,8 +110,7 @@ a{
 }
 .outer-box p{
     width: 200px;
-    inline-size: 160px;
-    text-align: center;
+    inline-size: 200px;
     color: #1f2937;
 }
 .slider-img{
@@ -125,6 +124,21 @@ a{
     width: auto;
     height: 400px;
 }
+#quoteText{
+    inline-size: 800px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    color: #1f2937;
+}
+#quote-name{
+    display: flex;
+    text-align: left;
+    justify-content: flex-end;
+
+
+}
 .container2{
     background-color: #e5e7eb;
     display: flex;
@@ -134,16 +148,42 @@ a{
     justify-content: center;
     align-items: center;
 }
-div.quotes{
-    inline-size: 800px;
-    font-size: 36px;
-    color: black;
-    font-weight: 300;
-}
 .container3{
+    display:flex ;
     width: auto;
     height: 300px;
+    justify-content: center;
+
 }
+.call-action-container{
+    margin-top: 35px;
+}
+.Call-action{
+    margin: 60px;
+    display: flex;
+    width: 800px;
+    height: 150px;
+    background-color: #3882F6;
+    justify-content: center;
+
+}
+.Call-action #btn-sign-up{
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 8px;
+    border-color: #E5E7EB;
+}
+
+
+.call-action-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .footer{
     width: auto;
     height: 50px;
